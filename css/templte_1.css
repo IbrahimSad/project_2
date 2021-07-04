@@ -1,0 +1,521 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0px;
+    margin:0px;
+ 
+}
+.container{
+    width:1170px;
+    margin:auto;
+}
+/*Start header*/
+.header .slider{
+    background-image: url(../slider2.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.header .slider .intro{
+    color: #EEE;
+    padding-top: 250px;
+    text-align:center;
+}
+
+.header .slider .intro h2{
+    margin:0px auto;
+    width: 700px;
+    border-top: 3px solid #EEE;
+    border-bottom: 3px solid #EEE;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.header .slider .intro button{
+    color: #EEE;
+    padding:10px 30px;
+    margin-top: 30px;
+    background:none;
+    border: 1px solid #EEE;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.header .navpar{
+    background-color: #252F31;
+    color:#FFF;
+    overflow:hidden;
+}
+
+.header .navpar ul{
+    list-style: none;
+    padding-left:0px;
+    float: right;
+    overflow:hidden;
+}
+
+.header .navpar h2{float: left; text-transform: uppercase;}
+
+.header .navpar h2 span{color:#2ecc71;}
+
+.header .navpar .active{color:green;}
+
+.header .navpar ul li{
+    float: left;
+    padding: 10px;
+}
+
+.header .navpar ul li a:hover{
+    color:green;
+}
+.header .navpar ul li a{
+   text-decoration: none; 
+   color: #FFF;  
+   font-size: smaller;
+   text-transform: uppercase;
+}
+/*End header*/
+/*Start featuers*/
+.featuers{
+  overflow:hidden;
+  padding: 50px;
+}
+.featuers .feat{
+    float:left;
+    width: 33.33333%;
+  }
+  .featuers .feat h2{
+      text-transform: uppercase;
+      color: #423f3f
+}
+  .featuers .feat p{
+      color:#888;
+      line-height: 1.7;
+      padding-right: 20px
+    }
+    
+/*End Fatuers*/
+/*Start About Me*/
+.about_me{
+    background: #f2f2f2;
+    overflow: hidden;
+}
+.about_me .image{
+    float: left;
+    width:40%;
+}
+.about_me .image img{
+    width: 100%;
+    height:100%
+}
+
+.about_me .info{
+   float: left;
+   width:60%;
+}
+.about_me .info .me > h2{
+    padding: 40px 0px 0px 50px;
+    color: #423f3f;
+    text-transform: uppercase;
+}
+.about_me .info .me p{
+    padding-left: 50px;
+    color:#6d6060;
+    line-height:1.7;
+}
+
+.about_me .info .program .design{
+     float:left;
+     width:50%;
+}
+ 
+.about_me .info .program .design .icon{
+   float: left;
+   width: 12%;
+}
+
+.about_me .info .program .design .icon img{
+    max-width: 100%;
+    margin: 28px 10px 0px 50px;
+    width: 40px; 
+    height: 40px;
+}
+.about_me .info .program .design .text{
+    float:left;
+    width:38%;
+    margin: 10px 10px 0px 65px;
+ }
+
+
+ .about_me .info .program .design .text h3{
+    color: #423f3f;
+    font-weight: bold;
+    text-transform: uppercase;
+    min-width: 200px;
+}
+
+.about_me .info .program .design .text p{
+    color:#6d6060;
+    min-width: 260px;
+    line-height: 1.7;
+}
+
+/*End About Me*/
+/*Start My Skills*/
+.my_skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my_skills .skills,
+.my_skills .content{
+   float: left;
+   width:50%;
+}
+.my_skills .skills h2{
+    padding-top: 20px;
+    color: #423f3f;
+    text-transform: uppercase;
+}
+.my_skills .skills p{
+    color: #888;
+    line-height:1.7;
+}
+.my_skills .skills button{
+    margin-top: 17px;
+}
+
+.my_skills .technique:first-of-type{
+    padding-top: 30px;
+}
+.my_skills .technique h3{
+    padding:14px 0px 0px 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #423f3f;
+}
+
+.my_skills .technique .last{
+    margin-bottom: 50px;
+}
+
+.my_skills .technique div{
+    background: #F2F2F2;
+    height: 25px;
+    margin-left:50px;
+}
+
+.my_skills .technique div span{
+    background: #2dcc70;
+    display: block;
+    height: 25px;
+    font-weight: bold;
+    text-align: right;
+    line-height: 25px;
+    color: #FFF;
+    padding-right:10px
+}
+/*End My Skills*/
+/*Strat Resume*/
+.resume{
+    background:#f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+
+.resume h2{
+    color:#423f3f;
+    margin-top: 40px;
+    text-transform: uppercase; 
+}
+.resume p{
+    color: #6d6060;
+    padding:15px 100px;
+    line-height: 1.7
+}
+
+.resume button{
+    margin-bottom: 50px
+}
+/*End Resume*/
+
+/*Start My Education*/
+.my_education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my_education .education{
+    float: left;
+    width:55%;
+}
+
+.my_education .education h2{
+    padding-top: 20px;
+    color: #423f3f;
+    text-transform: uppercase;
+}
+.my_education .education p{
+    color: #888;
+    line-height:1.7;
+}
+
+.my_education .deploma{
+    float: left;
+    width:40%;
+    padding-top: 89px
+ }
+
+ .my_education .deploma .my_deploma{
+     margin-bottom: 60px;
+ }
+ 
+.my_education .deploma h3{
+    color: #423f3f;
+    text-transform: uppercase;
+    margin:0px;
+    font-weight: bold
+}
+
+.my_education .deploma p{
+    color: #888;
+    margin:0px 0px 7px 0px;
+}
+
+.my_education .deploma span{
+    background: #2dcc70;
+    padding:8px; 
+}
+
+.my_education .deploma:last-of-type{
+    line-height: 1.7;
+}
+
+.my_education .deploma hr{
+    margin-top: 36px;
+}
+/*End My Education*/
+
+/*Start My Work*/
+.my_work{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my_work .work{
+    float: left;
+    width:55%;
+}
+
+.my_work .work h2{
+    padding-top: 20px;
+    color: #423f3f;
+    text-transform: uppercase;
+}
+.my_work .work p{
+    color: #888;
+    line-height:1.7;
+}
+
+.my_work .lead{
+    float: left;
+    width:40%;
+    padding-top: 89px
+ }
+
+ .my_work .lead .my_lead{
+     margin-bottom: 60px;
+ }
+ 
+.my_work .lead h3{
+    color: #423f3f;
+    text-transform: uppercase;
+    margin:0px;
+}
+
+.my_work .lead p{
+    color: #888;
+    margin:0px 0px 7px 0px;
+}
+
+.my_work .lead span{
+    background: #2dcc70;
+    padding:8px; 
+}
+
+.my_work .lead:last-of-type{
+    line-height: 1.7;
+}
+
+.my_work .lead hr{
+    margin-top: 36px;
+}
+/*End My Work*/
+
+/*Strat john*/
+.john{
+    background:#f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.john .john_stone q{
+    color: #888;
+    font: italic bold 18px/1.8 arial tahoma
+}
+
+.john .john_stone h2{
+    color: #423f3f;
+    font-weight: bold
+}
+
+.john ul{
+    list-style: none;
+}
+.john ul li{
+    width: 10px;
+    height: 10px;
+    display:inline-block;
+    border: 1px solid #2ecc71;
+    text-align: center;
+    cursor:pointer;
+}
+
+.john ul .active{
+    background: #2ecc71
+}
+
+
+.john ul li:hover{
+    background: #2ecc71
+}
+
+/*End john*/
+
+/*Start Portfolio*/
+.portfolio{
+    overflow:hidden;
+    padding:70px 0px 70px 0px;
+}
+.portfolio h2{
+    text-align: center;
+    color: #423f3f;
+    text-transform: uppercase;
+    font-weight: bold
+}
+.portfolio p{ 
+    text-align: center;
+    color:  #888;
+    line-height: 1.7;
+    margin-bottom: 90px 
+}
+
+.portfolio .image_portfolio > div{
+    float:left;
+    width:33.33333%;
+    padding-bottom:27px;
+}
+.portfolio .image_portfolio div img{
+    width: 92%;
+    border:3px solid #e2e1e1
+}
+/*End Portfolio*/
+
+/*Start contact me*/
+.contact_me{
+    background-color: #252f31;
+    overflow: hidden;
+    margin:0px ;
+
+}
+.contact_me form{
+    width:50%;
+    float: left;
+}
+.contact_me .contact{
+    width:45%;
+    float: left;
+    padding: 70px 0px ;
+}
+.contact h2{
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.contact p{
+    color: #6A6E71;
+    line-height: 1.7
+}
+
+.contact p strong{
+    color: #D1D6DA
+}
+
+form{
+    padding-top:100px
+}
+form input[type="text"]{
+    background: #191E22;
+    color: #EEE;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0px;
+    display: block;
+    height:25px;
+    width: 80%;
+}
+
+form textarea{
+    background: #191E22;
+    color: #EEE;
+    margin-top: 10px;
+    border: 0px;
+    display: block;
+    height:200px;
+    width: 80%;
+    margin-bottom: 30px
+}
+
+form input[type="submit"]{
+    background: #191E22;
+    color: #D1D6DA;
+    padding:10px 20px;
+    border: 0px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+form label{
+    color: #D1D6DA;
+    display: block;
+} 
+/*End contact me*/
+/* start footer*/
+.footer {
+    background-color: #191E22;
+    margin:0px ;
+    overflow: hidden;
+}
+.footer p{
+    text-align: center;
+    color: #6A6E71;
+}
+    /*End footer*/
+
+/*Start framwork*/
+.my_button{
+    background: none;
+    color:#2dcc70;
+    padding:10px 30px;
+    border: 3px solid #2dcc70;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*End framwork*/
